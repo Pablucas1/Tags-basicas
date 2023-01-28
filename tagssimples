@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Tags HTML</title>
+
+</head>
+<body>
+    <h1 id="volt"> Tags HTML e suas funções </h1> 
+    <hr>
+
+    <h2>Ìndice</h2> 
+    <ul>
+<li> <a href="#HTML">Tag HTML</a></li> 
+<li><a href="#HB">Head e Body</a></li>
+<li><a href="#title">Títulos e subtítulos</a></li>
+<li><a href="#Listas">Listas em HTML</a></li>
+<dd>-- <a href="#ord"> Lista ordenada</a>--</dd> 
+<dd>-- <a href="#nord">Lista não ordenada ou desordenada</a>--</dd>
+<dd>-- <a href="#def">Lista por definição</a>--</dd>
+</dl>
+<dt><li><a href="#txt">Tags sobre texto</a></li></dt>
+<li><a href="#Ref">Referências</a></li>
+    </ul>
+
+    <h2> <div id="HTML"></div> Tag HTML </h2> 
+    <small><a href="#volt">(Início)</a></small>
+    <p>Está tag representa a estrutura HTML. Ela terá todos os elementos do seu documento, como deverá iniciar e finalizar com a mesma (< html > < /html >). </p>
+
+    <h2><div id="HB"></div>Head e Body </h2> 
+    <small><a href="#volt">(Início)</a></small>
+    <p>Usadas para definir a "cabeça" e o "corpo" de seu documento!</p>
+    <p>Head (< head > < /head >) é utilizado para as informações gerais do documento, como os metadados, título da página web etc.   </p> 
+    <p> Já o Body (< body > < /body >) é todo o corpo do documento, ou seja, contém todo o conteúdo do HTML (parágrafos, imagens, hiperlinks, tabelas, listas, etc.) </p>
+
+    <h2><div id="title"></div>Títulos e Subtítulos</h2> 
+    <small><a href="#volt">(Início)</a></small>
+    <p> As tags de títulos são divididas entre seis "níveis" de H1 até H6 para serem melhores otimizadas.
+    </p>
+    <p> < h1 > < /h1 > á < h6 > < /h6 ></p>
+    <p> ex: < h1 > Cabeçalho 1 < /h1 ></p>
+    <p> <id=''> Assim fica o resultado do código: </i></p>
+<h1>Cabeçalho 1</h1>
+<h2> Cabeçalho 2</h2>
+<h3>Cabeçalho 3</h3>        
+<h4>Cabeçalho 4</h4>           
+<h5>Cabeçalho 5</h5>
+<h6>Cabeçalho 6</h6>
+<p> <blockquote><i> Portanto, é importante dividir os títulos deixando o H1 apenas para o título principal, H2 ou H3 para títulos das seções e H4 a H6 para subtítulos ou títulos que possuam baixo valor hierárquico em relação aos demais. </i> </blockquote></p> 
+    
+<h2><div id="Listas"></div>Listas em HTML</h2>
+<small><a href="#volt">(Início)</a></small>
+<p> Para serem utilizadas listas em um documento HTML usamos 3 formas mais conhecidas, que são: </p>
+<p> <ul> <li> <div id="ord"></div>  Lista ordenada - Começa com a tag < ol > e seus respectivos itens da lista ficam dentro da tag < li > (define um item de lista) e são ordenadas por números, <i> por exemplo: </i></li> </ul></p>
+
+<p>< ol ></p>                                            
+<p> < li> Item 1 < /li ></p>
+<p> < li> Item 2 < /li ></p>
+<p> < li> Item 3 < /li ></p>
+<p> < /ol ></p>
+
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ol>
+<hr>
+    <p> <ul> <li><div id="nord"></div> Lista <strong> NÃO </strong> ordenada ou desordenada ( < ul > < /ul >) - Lista não traz uma ordem numérica e as suas posições, são irrelevantes. Os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um ponto, um círculo etc. <i> Por exemplo: </i></li> </ul></p>
+    <p>< ul ></p>                                            
+<p> < li> Item 1 < /li ></p>
+<p> < li> Item 2 < /li ></p>
+<p> < li> Item 3 < /li ></p>
+<p> < /ul ></p>
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ul>
+ <hr>
+
+    <p> <ul> <li><div id="def"></div> Lista por definição - Representadas pela tag < dt > seguido de < dt > e < dd >, <i> ficando assim no código: </i></li> </ul></p>
+    <p> < dl ></p>
+        <p>    < dt >   Carros < /dt ></p>
+            <p>  < dd >  Carro 1 < /dd ></p>
+                <p> < dd > Carro 2  < /dd ></p>
+                    <p>  < dt > Celulares < /dt ></p>
+                        <p> < dd > Celular 1 < /dd ></p>
+                            <p> < dd > Celular 2 < /dd ></p>
+                                <p>  < dd > Celular 3 < /dd ></p>
+                                    <p>  < /dl ></p>
+                                    ----
+
+                                    <dl>
+                                        <dt>Carros </dt>
+                                        <dd> Carro 1</dd>
+                                        <dd> Carro 2</dd>
+                                        <dt> Celulares</dt>
+                                        <dd> Celular 1</dd>
+                                        <dd> Celular 2</dd>
+                                        <dd> Celular 3</dd>
+                                        </dl>
+
+    <h2><div id="txt"></div> Tags sobre texto</h2>
+    <small><a href="#volt">(Início)</a></small>
+    <p>Aqui estão algumas tags que usamos, tanto, para iniciar parágrafos quanto para otimiza-lós:  </p>
+   <ul> <li> <p>Tag < p > -- Define um parágrafo. Usado para juntar conteúdos, como imagens e campos de um formulário. </p></li></ul>
+   <ul> <li> <p>Tag < small > -- Define um texto menor (como um texto contendo direitos autorais ou comentários)</p></li></ul>
+   <ul> <li> <p>Tag < mark > -- Serve como um marcador de texto (frases ou palavras).</p></li></ul>
+   <ul> <li> <p>Tag < i > -- Adiciona o efeito de "Itálico".</p></li></ul>
+   <ul> <li> <p>Tag < u > -- Adiciona o efeito de sublinhado.</p></li></ul>
+   <ul> <li> <p>Tag < Strong > -- Adiciona o efeito de negrito.</p></li></ul>
+   <ul> <li> <p>Tag < sub > -- Define o texto subscrito, aparece meio caractere abaixo da linha normal e, é escrito em uma fonte menor.</p></li></ul>
+   <ul> <li> <p>Tag < sup > -- Define o texto sobrescrito, aparece meio caractere acima da linha normal e, é escrito em uma fonte menor.</p></li></ul>
+   <ul> <li> <p>Tag < a > -- Define um hiperlink, usado para vincular de uma página a outra. ex:(< a href="https://www.meusite.com">Visite meusite.com!</a>).</p></li></ul>
+   <ul> <li> <p>Tag < blockquote > -- Indica que o texto é uma citação retirada de outro texto.</p></li></ul>
+   <ul> <li> <p>Tag < font > -- Define a fonte do texto.</p></li></ul>
+   <ul> <li> <p>Tag < del > -- Define o texto que foi excluído de um documento. Geralmente traçados por linha através do texto excluído.</p></li></ul>
+   <ul> <li> <p>Tag < abbr > -- Define uma abreviação.</p></li></ul>
+   <ul> <li> <p>Tag < hr > -- Cria uma "régua" horizontal usada para separar algum conteúdo.</p></li></ul>
+
+   <h1> <div id="Ref"></div> Referências </h1> 
+   <small><a href="#volt">(Início)</a></small>
+   <p><a href="https://www.w3schools.com/TAGS/default.asp"target="_blank">w3schools.com.br</a></p>
+   <p><a href="https://www.homehost.com.br/blog/tutoriais/tags-html/"target="_blank">homehost.com.br</a></p>
+   <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank" >  developermozilla.org</a></p>
+    
+</body>
+</html>
